@@ -1,39 +1,8 @@
----
-layout: page
-title: 7 Attributen & relaties
-date: 2018-03-05
-description:
-lijstvolgorde: 170
-toc:
-- 7 Attributen & relaties
-- 7.1 Woonplaats
-- 7.2 Openbare ruimte
-- 7.3 Nummeraanduiding
-- 7.4 Pand
-- 7.5 Adresseerbaar object
-- 7.6 Ligplaats
-- 7.7 Standplaats
-- 7.8 Verblijfsobject
-- 7.9 Samengestelde attributen
-- 7.10 Gegevenstypen
----
+# Attributen & relaties
 
-# Inhoud van hoofdstuk 7 Attributen & relaties
-{:.no_toc}
+## Woonplaats
 
-* ToC
-{:toc}
-
----
-
-# 7 Attributen & relaties
-{:.no_toc}
-
-## 7.1 Woonplaats
-
-### 7.1.1 identificatie
-
-_Tabel 7.1.1.a: Beschrijving van het attribuut identificatie_
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -53,11 +22,11 @@ _Tabel 7.1.1.a: Beschrijving van het attribuut identificatie_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | De woonplaatsen worden vastgesteld door de gemeenten. De vastgestelde woonplaatsen worden voorzien van een unieke aanduiding, te vergelijken met de gemeentecode volgens Tabel 33 Gemeententabel van de Landelijke Tabellen GBA. Deze aanduiding wordt verstrekt door de Dienst voor het kadaster en de openbare registers. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Ja |
+| **Identificerend** | Ja \|
 
-### 7.1.2 naam
+_Tabel 7.1.1.a: Beschrijving van het attribuut identificatie_
 
-_Tabel 7.1.2.a: Beschrijving van het attribuut naam_
+### naam
 
 | Naam | naam |
 | :--- | :--- |
@@ -77,11 +46,11 @@ _Tabel 7.1.2.a: Beschrijving van het attribuut naam_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | Het maximale aantal te gebruiken tekens voor een benaming is tachtig. Het verdient aanbeveling te streven naar korte benamingen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.1.3 geometrie
+_Tabel 7.1.2.a: Beschrijving van het attribuut naam_
 
-_Tabel 7.1.3.a: Beschrijving van het attribuut geometrie_
+### geometrie
 
 | Naam | geometrie |
 | :--- | :--- |
@@ -101,11 +70,11 @@ _Tabel 7.1.3.a: Beschrijving van het attribuut geometrie_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.1.4 status
+_Tabel 7.1.3.a: Beschrijving van het attribuut geometrie_
 
-_Tabel 7.1.4.a: Beschrijving van het attribuut status_
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -125,11 +94,11 @@ _Tabel 7.1.4.a: Beschrijving van het attribuut status_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | De basisregistratie adressen en gebouwen bevat gegevens over zowel bestaande woonplaatsen als opgeheven woonplaatsen. Om het onderscheid tussen de stadia in de levenscyclus van de woonplaats te kunnen maken, wordt gebruik gemaakt van dit statusgegeven. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.1.5 geconstateerd
+_Tabel 7.1.4.a: Beschrijving van het attribuut status_
 
-_Tabel 7.1.5.a: Beschrijving van het attribuut geconstateerd_
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -149,11 +118,11 @@ _Tabel 7.1.5.a: Beschrijving van het attribuut geconstateerd_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Het feitelijk bestaan van een woonplaats dient daadwerkelijk te worden geconstateerd. Het gaat dan bijvoorbeeld om door burgers aangebrachte woonplaatsbenamingen die binnen andere processen aan het licht zijn gekomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.1.6 documentdatum
+_Tabel 7.1.5.a: Beschrijving van het attribuut geconstateerd_
 
-_Tabel 7.1.6.a: Beschrijving van het attribuut documentdatum_
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -171,13 +140,13 @@ _Tabel 7.1.6.a: Beschrijving van het attribuut documentdatum_
 | **Kardinaliteit** | \[1\] |
 | **Authentiek** | Basisgegeven |
 | **Indicatie in onderzoek** | Nee |
-| **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
+| **Toelichting** | In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.1.7 documentnummer
+_Tabel 7.1.6.a: Beschrijving van het attribuut documentdatum_
 
-_Tabel 7.1.7.a: Beschrijving van het attribuut documentnummer_
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -197,13 +166,13 @@ _Tabel 7.1.7.a: Beschrijving van het attribuut documentnummer_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-## 7.2 Openbare ruimte
+_Tabel 7.1.7.a: Beschrijving van het attribuut documentnummer_
 
-### 7.2.1 identificatie
+## Openbare ruimte
 
-_Tabel 7.2.1.a: Beschrijving van het attribuut identificatie_
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -223,11 +192,11 @@ _Tabel 7.2.1.a: Beschrijving van het attribuut identificatie_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Elke openbare ruimte waarvan gegevens zijn opgenomen in de basisregistratie adressen, wordt uniek aangeduid door middel van een identificatiecode. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Ja |
+| **Identificerend** | Ja \|
 
-### 7.2.2 naam
+_Tabel 7.2.1.a: Beschrijving van het attribuut identificatie_
 
-_Tabel 7.2.2.a: Beschrijving van het attribuut naam_
+### naam
 
 | Naam | naam |
 | :--- | :--- |
@@ -247,11 +216,11 @@ _Tabel 7.2.2.a: Beschrijving van het attribuut naam_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | Het verdient aanbeveling te streven naar korte benamingen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.2.3 type
+_Tabel 7.2.2.a: Beschrijving van het attribuut naam_
 
-_Tabel 7.2.3.a: Beschrijving van het attribuut type_
+### type
 
 | Naam | type |
 | :--- | :--- |
@@ -271,11 +240,11 @@ _Tabel 7.2.3.a: Beschrijving van het attribuut type_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.2.4 status
+_Tabel 7.2.3.a: Beschrijving van het attribuut type_
 
-_Tabel 7.2.4.a: Beschrijving van het attribuut status_
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -295,11 +264,11 @@ _Tabel 7.2.4.a: Beschrijving van het attribuut status_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | De basisregistratie adressen en gebouwen bevat gegevens over zowel bestaande openbare ruimten als ingetrokken openbare ruimten. Om het onderscheid tussen de stadia in de levenscyclus van de openbare ruimte te kunnen maken, wordt gebruik gemaakt van dit statusgegeven. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.2.5 geconstateerd
+_Tabel 7.2.4.a: Beschrijving van het attribuut status_
 
-_Tabel 7.2.5.a: Beschrijving van het attribuut geconstateerd_
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -319,11 +288,11 @@ _Tabel 7.2.5.a: Beschrijving van het attribuut geconstateerd_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Het feitelijk bestaan van een naam van een openbare ruimte dient daadwerkelijk te worden geconstateerd. Het gaat dan bijvoorbeeld om door burgers aangebrachte benamingen die binnen andere processen aan het licht zijn gekomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.2.6 documentdatum
+_Tabel 7.2.5.a: Beschrijving van het attribuut geconstateerd_
 
-_Tabel 7.2.6.a: Beschrijving van het attribuut documentdatum_
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -341,13 +310,13 @@ _Tabel 7.2.6.a: Beschrijving van het attribuut documentdatum_
 | **Kardinaliteit** | \[1\] |
 | **Authentiek** | Basisgegeven |
 | **Indicatie in onderzoek** | Nee |
-| **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
+| **Toelichting** | In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.2.7 documentnummer
+_Tabel 7.2.6.a: Beschrijving van het attribuut documentdatum_
 
-_Tabel 7.2.7.a: Beschrijving van het attribuut documentnummer_
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -367,17 +336,17 @@ _Tabel 7.2.7.a: Beschrijving van het attribuut documentnummer_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.2.8 Relatie: ligt in gerelateerde woonplaats
+_Tabel 7.2.7.a: Beschrijving van het attribuut documentnummer_
 
-_Tabel 7.2.8.a: Beschrijving van de relatiesoort: ligt in_
+### Relatie: ligt in gerelateerde woonplaats
 
 | Naam | ligt in |
 | :--- | :--- |
-| **Definitie** | Een openbare ruimte ligt in een woonplaats. |
+| **Definitie** | Een openbare ruimte ligt in een woonplaats. \|
 
-_Tabel 7.2.8.b: Beschrijving van de relatierol: gerelateerde woonplaats_
+_Tabel 7.2.8.a: Beschrijving van de relatiesoort: ligt in_
 
 | Naam | gerelateerde woonplaats |
 | :--- | :--- |
@@ -397,13 +366,13 @@ _Tabel 7.2.8.b: Beschrijving van de relatierol: gerelateerde woonplaats_
 | **Authentiek** | Authentiek |
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | De woonplaats behorende bij de nummeraanduiding prevaleert boven de woonplaats behorende bij de openbare ruimte. Achtergrond hiervan is dat de locatie van het object bepalend is voor de vraag in welke woonplaats een adres is gelegen. |
-| **Mogelijk geen waarde** | Nee |
+| **Mogelijk geen waarde** | Nee \|
 
-## 7.3 Nummeraanduiding
+_Tabel 7.2.8.b: Beschrijving van de relatierol: gerelateerde woonplaats_
 
-### 7.3.1 identificatie
+## Nummeraanduiding
 
-_Tabel 7.3.1.a: Beschrijving van het attribuut identificatie_
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -423,11 +392,11 @@ _Tabel 7.3.1.a: Beschrijving van het attribuut identificatie_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Elke nummeraanduiding waarvan gegevens zijn opgenomen in de basisregistratie adressen en gebouwen, wordt uniek aangeduid door middel van een identificatiecode. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Ja |
+| **Identificerend** | Ja \|
 
-### 7.3.2 huisnummer
+_Tabel 7.3.1.a: Beschrijving van het attribuut identificatie_
 
-_Tabel 7.3.2.a: Beschrijving van het attribuut huisnummer_
+### huisnummer
 
 | Naam | huisnummer |
 | :--- | :--- |
@@ -447,11 +416,11 @@ _Tabel 7.3.2.a: Beschrijving van het attribuut huisnummer_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.3.3 huisletter
+_Tabel 7.3.2.a: Beschrijving van het attribuut huisnummer_
 
-_Tabel 7.3.3.a: Beschrijving van het attribuut huisletter_
+### huisletter
 
 | Naam | huisletter |
 | :--- | :--- |
@@ -471,11 +440,11 @@ _Tabel 7.3.3.a: Beschrijving van het attribuut huisletter_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.3.4 huisnummertoevoeging
+_Tabel 7.3.3.a: Beschrijving van het attribuut huisletter_
 
-_Tabel 7.3.4.a: Beschrijving van het attribuut huisnummertoevoeging_
+### huisnummertoevoeging
 
 | Naam | huisnummertoevoeging |
 | :--- | :--- |
@@ -495,11 +464,11 @@ _Tabel 7.3.4.a: Beschrijving van het attribuut huisnummertoevoeging_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.3.5 postcode
+_Tabel 7.3.4.a: Beschrijving van het attribuut huisnummertoevoeging_
 
-_Tabel 7.3.5.a: Beschrijving van het attribuut postcode_
+### postcode
 
 | Naam | postcode |
 | :--- | :--- |
@@ -519,11 +488,11 @@ _Tabel 7.3.5.a: Beschrijving van het attribuut postcode_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Ja |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.3.6 type adresseerbaar object
+_Tabel 7.3.5.a: Beschrijving van het attribuut postcode_
 
-_Tabel 7.3.6.a: Beschrijving van het attribuut type adresseerbaar object_
+### type adresseerbaar object
 
 | Naam | type adresseerbaar object |
 | :--- | :--- |
@@ -543,11 +512,11 @@ _Tabel 7.3.6.a: Beschrijving van het attribuut type adresseerbaar object_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.3.7 status
+_Tabel 7.3.6.a: Beschrijving van het attribuut type adresseerbaar object_
 
-_Tabel 7.3.7.a: Beschrijving van het attribuut status_
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -567,11 +536,11 @@ _Tabel 7.3.7.a: Beschrijving van het attribuut status_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | De basisregistratie adressen en gebouwen bevat gegevens over zowel bestaande nummeraanduidingen als ingetrokken nummeraanduidingen. Om het onderscheid tussen de stadia in de levenscyclus van de nummeraanduiding te kunnen maken, wordt gebruik gemaakt van dit statusgegeven. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.3.8 geconstateerd
+_Tabel 7.3.7.a: Beschrijving van het attribuut status_
 
-_Tabel 7.3.8.a: Beschrijving van het attribuut geconstateerd_
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -591,11 +560,11 @@ _Tabel 7.3.8.a: Beschrijving van het attribuut geconstateerd_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Het feitelijk bestaan van een nummeraanduiding dient daadwerkelijk te worden geconstateerd. Het gaat dan bijvoorbeeld om door burgers aangebrachte nummeraanduidingen die binnen andere processen aan het licht zijn gekomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.3.9 documentdatum
+_Tabel 7.3.8.a: Beschrijving van het attribuut geconstateerd_
 
-_Tabel 7.3.9.a: Beschrijving van het attribuut documentdatum_
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -613,13 +582,13 @@ _Tabel 7.3.9.a: Beschrijving van het attribuut documentdatum_
 | **Kardinaliteit** | \[1\] |
 | **Authentiek** | Basisgegeven |
 | **Indicatie in onderzoek** | Nee |
-| **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
+| **Toelichting** | In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.3.10 documentnummer
+_Tabel 7.3.9.a: Beschrijving van het attribuut documentdatum_
 
-_Tabel 7.3.10.a: Beschrijving van het attribuut documentnummer_
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -639,17 +608,17 @@ _Tabel 7.3.10.a: Beschrijving van het attribuut documentnummer_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.3.11 Relatie: ligt in gerelateerde woonplaats
+_Tabel 7.3.10.a: Beschrijving van het attribuut documentnummer_
 
-_Tabel 7.3.11.a: Beschrijving van de relatiesoort: ligt in_
+### Relatie: ligt in gerelateerde woonplaats
 
 | Naam | ligt in |
 | :--- | :--- |
-| **Definitie** | Een adresseerbaar object ligt in een woonplaats. |
+| **Definitie** | Een adresseerbaar object ligt in een woonplaats. \|
 
-_Tabel 7.3.11.b: Beschrijving van de relatierol: gerelateerde woonplaats_
+_Tabel 7.3.11.a: Beschrijving van de relatiesoort: ligt in_
 
 | Naam | gerelateerde woonplaats |
 | :--- | :--- |
@@ -669,17 +638,17 @@ _Tabel 7.3.11.b: Beschrijving van de relatierol: gerelateerde woonplaats_
 | **Authentiek** | Authentiek |
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | Als dit gegeven is opgenomen dan wordt het adres van het object bepaald door de naam van de openbare ruimte, het huisnummer, een eventuele huisletter en huisnummertoevoeging en de woonplaats zoals die met dit gegeven wordt bepaald. De woonplaats behorende bij de nummeraanduiding prevaleert dus boven de woonplaats behorende bij de openbare ruimte. Achtergrond hiervan is dat de locatie van het object bepalend is voor de vraag in welke woonplaats een adres is gelegen. |
-| **Mogelijk geen waarde** | Nee |
+| **Mogelijk geen waarde** | Nee \|
 
-### 7.3.12 Relatie: ligt aan gerelateerde openbare ruimte
+_Tabel 7.3.11.b: Beschrijving van de relatierol: gerelateerde woonplaats_
 
-_Tabel 7.3.12.a: Beschrijving van de relatiesoort: ligt aan_
+### Relatie: ligt aan gerelateerde openbare ruimte
 
 | Naam | ligt aan |
 | :--- | :--- |
-| **Definitie** | Een adresseerbaar object ligt aan een openbare ruimte. |
+| **Definitie** | Een adresseerbaar object ligt aan een openbare ruimte. \|
 
-_Tabel 7.3.12.b: Beschrijving van de relatierol: gerelateerde openbare ruimte_
+_Tabel 7.3.12.a: Beschrijving van de relatiesoort: ligt aan_
 
 | Naam | gerelateerde openbare ruimte |
 | :--- | :--- |
@@ -699,13 +668,13 @@ _Tabel 7.3.12.b: Beschrijving van de relatierol: gerelateerde openbare ruimte_
 | **Authentiek** | Authentiek |
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
-| **Mogelijk geen waarde** | Nee |
+| **Mogelijk geen waarde** | Nee \|
 
-## 7.4 Pand
+_Tabel 7.3.12.b: Beschrijving van de relatierol: gerelateerde openbare ruimte_
 
-### 7.4.1 identificatie
+## Pand
 
-_Tabel 7.4.1.a: Beschrijving van het attribuut identificatie_
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -725,11 +694,11 @@ _Tabel 7.4.1.a: Beschrijving van het attribuut identificatie_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Elk pand waarvan gegevens zijn opgenomen in de BAG wordt uniek aangeduid door middel van een identificatiecode. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Ja |
+| **Identificerend** | Ja \|
 
-### 7.4.2 geometrie
+_Tabel 7.4.1.a: Beschrijving van het attribuut identificatie_
 
-_Tabel 7.4.2.a: Beschrijving van het attribuut geometrie_
+### geometrie
 
 | Naam | geometrie |
 | :--- | :--- |
@@ -749,11 +718,11 @@ _Tabel 7.4.2.a: Beschrijving van het attribuut geometrie_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.4.3 oorspronkelijk bouwjaar
+_Tabel 7.4.2.a: Beschrijving van het attribuut geometrie_
 
-_Tabel 7.4.3.a: Beschrijving van het attribuut bouwjaar_
+### oorspronkelijk bouwjaar
 
 | Naam | oorspronkelijk bouwjaar |
 | :--- | :--- |
@@ -773,11 +742,11 @@ _Tabel 7.4.3.a: Beschrijving van het attribuut bouwjaar_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | Bij het initieel opvoeren van een PAND wordt door de gemeente een reële inschatting gemaakt van het waarschijnlijke bouwjaar van het PAND. Bij het bouwkundig gereed opleveren van het PAND wordt deze waarde in voorkomende gevallen aangepast. Indien in latere jaren wijzigingen aan een pand worden aangebracht, leidt dit niet tot wijziging van het bouwjaar. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.4.4 status
+_Tabel 7.4.3.a: Beschrijving van het attribuut bouwjaar_
 
-_Tabel 7.4.4.a: Beschrijving van het attribuut status_
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -797,11 +766,11 @@ _Tabel 7.4.4.a: Beschrijving van het attribuut status_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | De basisregistratie adressen en gebouwen bevat gegevens over zowel daadwerkelijk aanwezige panden, als nog tot stand te brengen en verdwenen panden. Om het onderscheid tussen de stadia in de levenscyclus van het pand te kunnen maken, wordt gebruik gemaakt van dit statusgegeven. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.4.5 geconstateerd
+_Tabel 7.4.4.a: Beschrijving van het attribuut status_
 
-_Tabel 7.4.5.a: Beschrijving van het attribuut geconstateerd_
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -821,11 +790,11 @@ _Tabel 7.4.5.a: Beschrijving van het attribuut geconstateerd_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Het feitelijk bestaan van een pand dient daadwerkelijk te worden geconstateerd. Het gaat dan bijvoorbeeld om niet eerder in de registratie opgenomen panden, vanwege het ontbreken van de voor de bouw benodigde vergunning. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.4.6 documentdatum
+_Tabel 7.4.5.a: Beschrijving van het attribuut geconstateerd_
 
-_Tabel 7.4.6.a: Beschrijving van het attribuut documentdatum_
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -845,11 +814,11 @@ _Tabel 7.4.6.a: Beschrijving van het attribuut documentdatum_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.4.7 documentnummer
+_Tabel 7.4.6.a: Beschrijving van het attribuut documentdatum_
 
-_Tabel 7.4.7.a: Beschrijving van het attribuut documentnummer_
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -869,19 +838,19 @@ _Tabel 7.4.7.a: Beschrijving van het attribuut documentnummer_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-## 7.5 Adresseerbaar object
+_Tabel 7.4.7.a: Beschrijving van het attribuut documentnummer_
 
-### 7.5.1 Relatie: heeft als hoofdadres hoofdadres
+## Adresseerbaar object
 
-_Tabel 7.5.1.a: Beschrijving van de relatiesoort: heeft als hoofdadres_
+### Relatie: heeft als hoofdadres hoofdadres
 
 | Naam | heeft als hoofdadres |
 | :--- | :--- |
-| **Definitie** | Een adresseerbaar object heeft als hoofdadres een nummeraanduiding. |
+| **Definitie** | Een adresseerbaar object heeft als hoofdadres een nummeraanduiding. \|
 
-_Tabel 7.5.1.b: Beschrijving van de relatierol: hoofdadres_
+_Tabel 7.5.1.a: Beschrijving van de relatiesoort: heeft als hoofdadres_
 
 | Naam | hoofdadres |
 | :--- | :--- |
@@ -901,17 +870,17 @@ _Tabel 7.5.1.b: Beschrijving van de relatierol: hoofdadres_
 | **Authentiek** | Authentiek |
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
-| **Mogelijk geen waarde** | Nee |
+| **Mogelijk geen waarde** | Nee \|
 
-### 7.5.2 Relatie: heeft als nevenadres nevenadres
+_Tabel 7.5.1.b: Beschrijving van de relatierol: hoofdadres_
 
-_Tabel 7.5.2.a: Beschrijving van de relatiesoort: heeft als nevenadres_
+### Relatie: heeft als nevenadres nevenadres
 
 | Naam | heeft als nevenadres |
 | :--- | :--- |
-| **Definitie** | Een adresseerbaar object heeft als nevenadres een nummeraanduiding. |
+| **Definitie** | Een adresseerbaar object heeft als nevenadres een nummeraanduiding. \|
 
-_Tabel 7.5.1.b: Beschrijving van de relatierol: nevenadres_
+_Tabel 7.5.2.a: Beschrijving van de relatiesoort: heeft als nevenadres_
 
 | Naam | nevenadres |
 | :--- | :--- |
@@ -931,13 +900,13 @@ _Tabel 7.5.1.b: Beschrijving van de relatierol: nevenadres_
 | **Authentiek** | Authentiek |
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
-| **Mogelijk geen waarde** | Nee |
+| **Mogelijk geen waarde** | Nee \|
 
-## 7.6 Ligplaats
+_Tabel 7.5.1.b: Beschrijving van de relatierol: nevenadres_
 
-### 7.6.1 identificatie
+## Ligplaats
 
-_Tabel 7.6.1.a: Beschrijving van het attribuut identificatie_
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -957,11 +926,11 @@ _Tabel 7.6.1.a: Beschrijving van het attribuut identificatie_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Elke Ligplaats waarvan gegevens zijn opgenomen in de basisregistratie adressen en gebouwen wordt uniek aangeduid door middel van een identificatiecode. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Ja |
+| **Identificerend** | Ja \|
 
-### 7.6.2 status
+_Tabel 7.6.1.a: Beschrijving van het attribuut identificatie_
 
-_Tabel 7.6.2.a: Beschrijving van het attribuut status_
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -981,11 +950,11 @@ _Tabel 7.6.2.a: Beschrijving van het attribuut status_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | De BAG bevat gegevens over zowel daadwerkelijk aanwezige ligplaatsen als ingetrokken ligplaatsen. Om het onderscheid tussen de stadia in de levenscyclus van de ligplaats te kunnen maken, wordt gebruik gemaakt van dit statusgegeven. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.6.3 geometrie
+_Tabel 7.6.2.a: Beschrijving van het attribuut status_
 
-_Tabel 7.6.3.a: Beschrijving van het attribuut geometrie_
+### geometrie
 
 | Naam | geometrie |
 | :--- | :--- |
@@ -1005,11 +974,11 @@ _Tabel 7.6.3.a: Beschrijving van het attribuut geometrie_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.6.4 geconstateerd
+_Tabel 7.6.3.a: Beschrijving van het attribuut geometrie_
 
-_Tabel 7.6.4.a: Beschrijving van het attribuut geconstateerd_
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -1029,11 +998,11 @@ _Tabel 7.6.4.a: Beschrijving van het attribuut geconstateerd_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Het feitelijk bestaan van een ligplaats dient daadwerkelijk te worden geconstateerd. Het gaat dan bijvoorbeeld om het feitelijk permanent gebruik van een plaats in het water dat binnen andere processen aan het licht is gekomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.6.5 documentdatum
+_Tabel 7.6.4.a: Beschrijving van het attribuut geconstateerd_
 
-_Tabel 7.6.5.a: Beschrijving van het attribuut documentdatum_
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -1051,13 +1020,13 @@ _Tabel 7.6.5.a: Beschrijving van het attribuut documentdatum_
 | **Kardinaliteit** | \[1\] |
 | **Authentiek** | Basisgegeven |
 | **Indicatie in onderzoek** | Nee |
-| **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
+| **Toelichting** | In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.6.6 documentnummer
+_Tabel 7.6.5.a: Beschrijving van het attribuut documentdatum_
 
-_Tabel 7.6.6.a: Beschrijving van het attribuut documentnummer_
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -1077,13 +1046,13 @@ _Tabel 7.6.6.a: Beschrijving van het attribuut documentnummer_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-## 7.7 Standplaats
+_Tabel 7.6.6.a: Beschrijving van het attribuut documentnummer_
 
-### 7.7.1 identificatie
+## Standplaats
 
-_Tabel 7.7.1.a: Beschrijving van het attribuut identificatie_
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -1103,11 +1072,11 @@ _Tabel 7.7.1.a: Beschrijving van het attribuut identificatie_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Elke standplaats waarvan gegevens zijn opgenomen in de BAG wordt uniek aangeduid door middel van een identificatiecode. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Ja |
+| **Identificerend** | Ja \|
 
-### 7.7.2 status
+_Tabel 7.7.1.a: Beschrijving van het attribuut identificatie_
 
-_Tabel 7.7.2.a: Beschrijving van het attribuut status_
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -1127,11 +1096,11 @@ _Tabel 7.7.2.a: Beschrijving van het attribuut status_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | De BAG bevat gegevens over zowel daadwerkelijk aanwezige standplaatsen als ingetrokken standplaatsen. Om het onderscheid tussen de stadia in de levenscyclus van de standplaats te kunnen maken, wordt gebruik gemaakt van dit statusgegeven. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.7.3 geometrie
+_Tabel 7.7.2.a: Beschrijving van het attribuut status_
 
-_Tabel 7.7.3.a: Beschrijving van het attribuut geometrie_
+### geometrie
 
 | Naam | geometrie |
 | :--- | :--- |
@@ -1151,11 +1120,11 @@ _Tabel 7.7.3.a: Beschrijving van het attribuut geometrie_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.7.4 geconstateerd
+_Tabel 7.7.3.a: Beschrijving van het attribuut geometrie_
 
-_Tabel 7.7.4.a: Beschrijving van het attribuut geconstateerd_
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -1175,11 +1144,11 @@ _Tabel 7.7.4.a: Beschrijving van het attribuut geconstateerd_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Het feitelijk bestaan van een standplaats dient daadwerkelijk te worden geconstateerd. Het gaat dan bijvoorbeeld om het feitelijk gebruik van (een gedeelte van) een terrein dat binnen andere processen aan het licht is gekomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.7.5 documentdatum
+_Tabel 7.7.4.a: Beschrijving van het attribuut geconstateerd_
 
-_Tabel 7.7.5.a: Beschrijving van het attribuut documentdatum_
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -1197,13 +1166,13 @@ _Tabel 7.7.5.a: Beschrijving van het attribuut documentdatum_
 | **Kardinaliteit** | \[1\] |
 | **Authentiek** | Basisgegeven |
 | **Indicatie in onderzoek** | Nee |
-| **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
+| **Toelichting** | In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.7.6 documentnummer
+_Tabel 7.7.5.a: Beschrijving van het attribuut documentdatum_
 
-_Tabel 7.7.6.a: Beschrijving van het attribuut documentnummer_
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -1223,13 +1192,13 @@ _Tabel 7.7.6.a: Beschrijving van het attribuut documentnummer_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-## 7.8 Verblijfsobject
+_Tabel 7.7.6.a: Beschrijving van het attribuut documentnummer_
 
-### 7.8.1 identificatie
+## Verblijfsobject
 
-_Tabel 7.8.1.a: Beschrijving van het attribuut identificatie_
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -1249,11 +1218,11 @@ _Tabel 7.8.1.a: Beschrijving van het attribuut identificatie_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Elk verblijfsobject waarvan gegevens zijn opgenomen in de basisregistratie gebouwen wordt uniek aangeduid door middel van een identificatiecode. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Ja |
+| **Identificerend** | Ja \|
 
-### 7.8.2 geometrie
+_Tabel 7.8.1.a: Beschrijving van het attribuut identificatie_
 
-_Tabel 7.8.2.a: Beschrijving van het attribuut geometrie_
+### geometrie
 
 | Naam | geometrie |
 | :--- | :--- |
@@ -1273,11 +1242,11 @@ _Tabel 7.8.2.a: Beschrijving van het attribuut geometrie_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.8.3 gebruiksdoel
+_Tabel 7.8.2.a: Beschrijving van het attribuut geometrie_
 
-_Tabel 7.8.3.a: Beschrijving van het attribuut gebruiksdoel_
+### gebruiksdoel
 
 | Naam | gebruiksdoel |
 | :--- | :--- |
@@ -1297,11 +1266,11 @@ _Tabel 7.8.3.a: Beschrijving van het attribuut gebruiksdoel_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | Het gebruiksdoel zal initieel worden afgeleid uit de bouwkundige gebruiksfunctie conform de categorisering van het Bouwbesluit 2012 zoals deze in de bouwvergunning als zodanig is aangemerkt. Het gebruiksdoel dient niet te worden verward met de planologische bestemming en het feitelijk gebruik. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Ja |
+| **Identificerend** | Ja \|
 
-### 7.8.4 oppervlakte
+_Tabel 7.8.3.a: Beschrijving van het attribuut gebruiksdoel_
 
-_Tabel 7.8.4.a: Beschrijving van het attribuut oppervlakte_
+### oppervlakte
 
 | Naam | oppervlakte |
 | :--- | :--- |
@@ -1321,11 +1290,11 @@ _Tabel 7.8.4.a: Beschrijving van het attribuut oppervlakte_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | De exacte wijze van bepalen van de gebruiksoppervlakte wordt beschreven in NEN 2580. In essentie komt dit erop neer dat de gebruiksoppervlakte van een Verblijfsobject wordt bepaald door hetgeen op vloerniveau wordt gemeten uitgaande van de binnenzijde van de omhullende scheidingsconstructies. Vides en schalmgaten van meer dan 4 m² blijven buiten beschouwing, evenals inspringingen en uitspringingen langs de omtrekken van minder dan 0,5 m². Gebroken positieve waarden waardoor decimalen achter de komma ontstaan, vormen geen natuurlijke getallen. Om een natuurlijk getal te verkrijgen, zal in die gevallen afronding op de nabijgelegen gehele waarde moeten plaatsvinden. Oppervlakten kleiner dan 1 m² worden altijd afgerond op 1 m². |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.8.5 status
+_Tabel 7.8.4.a: Beschrijving van het attribuut oppervlakte_
 
-_Tabel 7.8.5.a: Beschrijving van het attribuut status_
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -1345,11 +1314,11 @@ _Tabel 7.8.5.a: Beschrijving van het attribuut status_
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | De BAG bevat gegevens over zowel daadwerkelijk aanwezige verblijfsobjecten, als nog tot stand te brengen en verdwenen verblijfsobjecten. Om het onderscheid tussen de stadia in de levenscyclus van het verblijfsobject te kunnen maken, wordt gebruik gemaakt van dit statusgegeven. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.8.6 geconstateerd
+_Tabel 7.8.5.a: Beschrijving van het attribuut status_
 
-_Tabel 7.8.6.a: Beschrijving van het attribuut geconstateerd_
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -1369,11 +1338,11 @@ _Tabel 7.8.6.a: Beschrijving van het attribuut geconstateerd_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Het feitelijk bestaan van een verblijfsobject dient daadwerkelijk te worden geconstateerd. Het gaat dan bijvoorbeeld om niet eerder in de registratie opgenomen verblijfsobjecten, vanwege het ontbreken van de voor de bouw benodigde vergunning of vanwege het niet benodigd zijn van een dergelijke vergunning. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.8.7 documentdatum
+_Tabel 7.8.6.a: Beschrijving van het attribuut geconstateerd_
 
-_Tabel 7.8.7.a: Beschrijving van het attribuut documentdatum_
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -1393,11 +1362,11 @@ _Tabel 7.8.7.a: Beschrijving van het attribuut documentdatum_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.8.8 documentnummer
+_Tabel 7.8.7.a: Beschrijving van het attribuut documentdatum_
 
-_Tabel 7.8.8.a: Beschrijving van het attribuut documentnummer_
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -1417,17 +1386,17 @@ _Tabel 7.8.8.a: Beschrijving van het attribuut documentnummer_
 | **Indicatie in onderzoek** | Nee |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | Nee |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.8.9 Relatie: maakt deel uit van gerelateerd pand
+_Tabel 7.8.8.a: Beschrijving van het attribuut documentnummer_
 
-_Tabel 7.8.9.a: Beschrijving van de relatiesoort: maakt deel uit van_
+### Relatie: maakt deel uit van gerelateerd pand
 
 | Naam | maakt deel uit van |
 | :--- | :--- |
-| **Definitie** | Een verblijfsobject maakt onderdeel uit van een pand. |
+| **Definitie** | Een verblijfsobject maakt onderdeel uit van een pand. \|
 
-_Tabel 7.8.9.b: Beschrijving van de relatierol: gerelateerd pand_
+_Tabel 7.8.9.a: Beschrijving van de relatiesoort: maakt deel uit van_
 
 | Naam | gerelateerd pand |
 | :--- | :--- |
@@ -1447,33 +1416,33 @@ _Tabel 7.8.9.b: Beschrijving van de relatierol: gerelateerd pand_
 | **Authentiek** | Authentiek |
 | **Indicatie in onderzoek** | Ja |
 | **Toelichting** | Ten aanzien van elk in de BAG opgenomen verblijfsobject wordt aangegeven, welke identificatiecodes zijn toegekend aan de panden waarbinnen het verblijfsobject is gelegen. In de meeste gevallen zal dit een enkel pand betreffen. In een aantal gevallen zal het verblijfsobject zijn gelegen in meer dan een pand. In dat geval worden hier de identificatiecodes opgenomen van de verschillende panden waarbinnen het verblijfsobject is gelegen. Bij het relateren van het verblijfsobject aan het pand of de panden waarvan het verblijfsobject onderdeel uitmaakt, wordt gebruik gemaakt van de identificatie van een pand, zoals deze eveneens in de BAG is opgenomen. |
-| **Mogelijk geen waarde** | Nee |
+| **Mogelijk geen waarde** | Nee \|
 
-## 7.9 Samengestelde attributen
+_Tabel 7.8.9.b: Beschrijving van de relatierol: gerelateerd pand_
 
-### 7.9.1 Objectnummering
+## Samengestelde attributen
+
+### Objectnummering
 
 Deze paragraaf geeft een beschrijving (zie tabel 7.9.1.a) en benoemt de gegevens­elementen (zie tabel 7.9.1.b) van het samengestelde attribuut objectnummering.
-
-_Tabel 7.9.1.a: Beschrijving van het samengestelde attribuut objectnummering_
 
 | Naam | objectnummering |
 | :--- | :--- |
 | **Definitie** | Unieke objectaanduiding binnen een gemeente |
 | **Stereotype** | «Complex gegevenstype» |
-| **Datum opname** | Februari 2004 |
+| **Datum opname** | Februari 2004 \|
 
-_Tabel 7.9.1.b: Overzicht van de gegevens­elementen van het samengestelde attribuut objectnummering_
+_Tabel 7.9.1.a: Beschrijving van het samengestelde attribuut objectnummering_
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
-| gemeentecode | \[1\] | Zie [paragraaf 7.9.1.1](#7911-gemeentecode) |
-| objecttypecode | \[1\] | Zie [paragraaf 7.9.1.2](#7912-objecttypecode) |
-| objectvolgnummer | \[1\] | Zie [paragraaf 7.9.1.3](#7913-objectvolgnummer) |
+| gemeentecode | \[1\] | Zie paragraaf [[[#gemeentecode]]] |
+| objecttypecode | \[1\] | Zie paragraaf [[[#objecttypecode]]] |
+| objectvolgnummer | \[1\] | Zie paragraaf [[[#objectvolgnummer]]] \|
 
-#### 7.9.1.1 gemeentecode
+_Tabel 7.9.1.b: Overzicht van de gegevens­elementen van het samengestelde attribuut objectnummering_
 
-_Tabel 7.9.1.1.a: Beschrijving van het gegevenselement gemeentecode_
+#### gemeentecode
 
 | Naam | gemeentecode |
 | :--- | :--- |
@@ -1493,11 +1462,11 @@ _Tabel 7.9.1.1.a: Beschrijving van het gegevenselement gemeentecode_
 | **Indicatie in onderzoek** | |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-#### 7.9.1.2 objecttypecode
+_Tabel 7.9.1.1.a: Beschrijving van het gegevenselement gemeentecode_
 
-_Tabel 7.9.1.2.a: Beschrijving van het gegevenselement objecttypecode_
+#### objecttypecode
 
 | Naam | objecttypecode |
 | :--- | :--- |
@@ -1517,11 +1486,11 @@ _Tabel 7.9.1.2.a: Beschrijving van het gegevenselement objecttypecode_
 | **Indicatie in onderzoek** | |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-#### 7.9.1.3 objectvolgnummer
+_Tabel 7.9.1.2.a: Beschrijving van het gegevenselement objecttypecode_
 
-_Tabel 7.9.1.3.a: Beschrijving van het gegevenselement objectvolgnummer_
+#### objectvolgnummer
 
 | Naam | objectvolgnummer |
 | :--- | :--- |
@@ -1541,30 +1510,30 @@ _Tabel 7.9.1.3.a: Beschrijving van het gegevenselement objectvolgnummer_
 | **Indicatie in onderzoek** | |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.9.2 puntOfVlak
+_Tabel 7.9.1.3.a: Beschrijving van het gegevenselement objectvolgnummer_
+
+### puntOfVlak
 
 Deze paragraaf geeft een beschrijving (zie tabel 7.9.2.a) en benoemt de gegevens­elementen (zie tabel 7.9.2.b) van het samengestelde attribuut puntOfVlak
-
-_Tabel 7.9.2.a: Beschrijving van het samengestelde attribuut puntOfVlak_
 
 | Naam | puntOfVlak |
 | :--- | :--- |
 | **Definitie** | Een samengesteld geometriegegevenstype waarbij wordt afgedwongen dat voor de geometrie een keuze gemaakt moet worden tussen een punt (GM\_Point) of een vlak (GM\_Surface). |
 | **Stereotype** | «Union» |
-| **Datum opname** | Januari 2017 |
+| **Datum opname** | Januari 2017 \|
 
-_Tabel 7.9.2.b: Overzicht van de gegevens­elementen van het samengestelde attribuut puntOfVlak_
+_Tabel 7.9.2.a: Beschrijving van het samengestelde attribuut puntOfVlak_
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
-| Punt | \[1\] | Zie [paragraaf 7.9.2.1](#7921-punt) |
-| Vlak | \[1\] | Zie [paragraaf 7.9.2.2](#7922-vlak) |
+| Punt | \[1\] | Zie paragraaf [[[#punt]]] |
+| Vlak | \[1\] | Zie paragraaf [[[#vlak]]] \|
 
-#### 7.9.2.1 punt
+_Tabel 7.9.2.b: Overzicht van de gegevens­elementen van het samengestelde attribuut puntOfVlak_
 
-_Tabel 7.9.2.1.a: Beschrijving van het gegevenselement punt_
+#### punt
 
 | Naam | punt |
 | :--- | :--- |
@@ -1584,11 +1553,11 @@ _Tabel 7.9.2.1.a: Beschrijving van het gegevenselement punt_
 | **Indicatie in onderzoek** | |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-#### 7.9.2.2 vlak
+_Tabel 7.9.2.1.a: Beschrijving van het gegevenselement punt_
 
-_Tabel 7.9.2.2.a: Beschrijving van het gegevenselement vlak_
+#### vlak
 
 | Naam | vlak |
 | :--- | :--- |
@@ -1608,30 +1577,30 @@ _Tabel 7.9.2.2.a: Beschrijving van het gegevenselement vlak_
 | **Indicatie in onderzoek** | |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-### 7.9.3 vlakOfMultivlak
+_Tabel 7.9.2.2.a: Beschrijving van het gegevenselement vlak_
+
+### vlakOfMultivlak
 
 Deze paragraaf geeft een beschrijving (zie tabel 7.9.3.a) en benoemt de gegevens­elementen (zie tabel 7.9.3.b) van het samengestelde attribuut vlakOfMultivlak
-
-_Tabel 7.9.3.a: Beschrijving van het samengestelde attribuut vlakOfMultivlak_
 
 | Naam | vlakOfMultivlak |
 | :--- | :--- |
 | **Definitie** | Een samengesteld geometriegegevenstype waarbij wordt afgedwongen dat voor de geometrie een keuze gemaakt moet worden tussen een vlak (GM\_Surface) of een multivlak (GM\_MultiSurface). |
 | **Stereotype** | «Union» |
-| **Datum opname** | Januari 2017 |
+| **Datum opname** | Januari 2017 \|
 
-_Tabel 7.9.3.b: Overzicht van de gegevens­elementen van het samengestelde attribuut vlakOfMultivlak_
+_Tabel 7.9.3.a: Beschrijving van het samengestelde attribuut vlakOfMultivlak_
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
-| vlak | \[1\] | Zie [paragraaf 7.9.3.1](#7931-vlak) |
-| multivlak | \[1\] | Zie [paragraaf 7.9.3.2](#7932-multivlak) |
+| vlak | \[1\] | Zie paragraaf [[[#vlak]]] |
+| multivlak | \[1\] | Zie paragraaf [[[#multivlak]]] \|
 
-#### 7.9.3.1 vlak
+_Tabel 7.9.3.b: Overzicht van de gegevens­elementen van het samengestelde attribuut vlakOfMultivlak_
 
-_Tabel 7.9.3.1.a: Beschrijving van het gegevenselement vlak_
+#### vlak
 
 | Naam | vlak |
 | :--- | :--- |
@@ -1651,11 +1620,11 @@ _Tabel 7.9.3.1.a: Beschrijving van het gegevenselement vlak_
 | **Indicatie in onderzoek** | |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-#### 7.9.3.2 multivlak
+_Tabel 7.9.3.1.a: Beschrijving van het gegevenselement vlak_
 
-_Tabel 7.9.3.2.a: Beschrijving van het gegevenselement multivlak_
+#### multivlak
 
 | Naam | multivlak |
 | :--- | :--- |
@@ -1675,21 +1644,17 @@ _Tabel 7.9.3.2.a: Beschrijving van het gegevenselement multivlak_
 | **Indicatie in onderzoek** | |
 | **Toelichting** | |
 | **Mogelijk geen waarde** | |
-| **Identificerend** | Nee |
+| **Identificerend** | Nee \|
 
-## 7.10 Gegevenstypen
+_Tabel 7.9.3.2.a: Beschrijving van het gegevenselement multivlak_
 
-### 7.10.1 AN
+## Gegevenstypen
 
-_Tabel 7.10.1.a: Beschrijving van het gegevenstype AN_
+### AN
 
 | Naam | AN |
 | :--- | :--- |
-| **Definitie** | Datatype met een eigen naam, analoog aan CharacterString. De minimale lengte is tenminste een teken en de eerste positie mag geen spatie bevatten. Alle 335 tekens uit de gestandaardiseerde deelverzameling MES-1 van Unicode zijn toegestaan[^7-10-1-i] |
-| **Stereotype** | «Simpel gegevenstype» |
+| **Definitie** | Datatype met een eigen naam, analoog aan CharacterString. De minimale lengte is tenminste een teken en de eerste positie mag geen spatie bevatten. Alle 335 tekens uit de gestandaardiseerde deelverzameling MES-1 van Unicode zijn toegestaan[[ISO-IEC-10646]] p. 2076 |
+| **Stereotype** | «Simpel gegevenstype» \|
 
-[^7-10-1-i]: ISO/IEC (2010) _International Standard ISO/IEC 10646_, Final Committee Draft, Second edition, p. 2076. [http://unicode.org/L2/L2010/10038-fcd10646-main.pdf](http://unicode.org/L2/L2010/10038-fcd10646-main.pdf)
-
-----
-
-## Voetnoten
+_Tabel 7.10.1.a: Beschrijving van het gegevenstype AN_
